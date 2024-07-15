@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Take Over",
+    "artists": "Almanac",
+    "cover": "takeOver"
+  },
+  {
+    "id": 1,
+    "name": "Melhores Bailes do Mundo",
+    "artists": "Almanac, Watila Gyn, Danntz!",
+    "cover": "melhoresBailes"
+  },
+  {
+    "id": 2,
+    "name": "Mini Game",
+    "artists": "Almanac",
+    "cover": "miniGame"
+  },
+  {
+    "id": 3,
+    "name": "All I Want",
+    "artists": "Almanac",
+    "cover": "AllIWant"
+  },
+  {
+    "id": 4,
+    "name": "Las Chicas",
+    "artists": "Almanac, Jord",
+    "cover": "AllIWant"
+  }
+]
