@@ -41,15 +41,15 @@ const transformMenu = () => {
   <header class="fixed z-30 w-screen h-16">
     <!-- Desktop Navigation -->
     <div class="absolute w-screen h-12 invisible md:visible z-10">
-      <nav class="flex justify-center items-center">
+      <nav class="flex justify-center items-center text-redLight">
         <!-- Part 1 -->
-        <div class="flex justify-around md:w-1/2 lg:w-1/4">
-          <RouterLink to="/about">About us</RouterLink>
-          <RouterLink to="/dates">Dates</RouterLink>
-          <RouterLink to="/discography">Discography</RouterLink>
+        <div class="flex justify-around md:w-4/12">
+          <RouterLink to="/about" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">About us</RouterLink>
+          <RouterLink to="/dates" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Dates</RouterLink>
+          <RouterLink to="/discography" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Releases</RouterLink>
         </div>
         <!-- Logo -->
-        <RouterLink to="/" class="mt-2 mb-2 w-9 cursor-pointer">
+        <RouterLink to="/" class="mt-2 mb-2 w-9 cursor-pointer hover:scale-110 transition">
           <svg
             version="1.1"
             id="Camada_1"
@@ -150,10 +150,10 @@ const transformMenu = () => {
           </svg>
         </RouterLink>
         <!-- Part 2 -->
-        <div class="flex justify-around md:w-1/2 lg:w-1/4 border">
-          <RouterLink to="/gallery">Gallery ?</RouterLink>
-          <RouterLink to="/merch">Merch</RouterLink>
-          <RouterLink to="/contact">Contact</RouterLink>
+        <div class="flex justify-around md:w-4/12">
+          <RouterLink to="/gallery" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Gallery</RouterLink>
+          <RouterLink to="/merch" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Merch</RouterLink>
+          <RouterLink to="/contact" class="relative text-lg lg:text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-red after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Contact</RouterLink>
         </div>
       </nav>
     </div>
@@ -317,7 +317,7 @@ const transformMenu = () => {
     </div> -->
     <!-- Background Black -->
     <div
-      class="fixed inset-0 bg-redDark w-screen h-16"
+      class="fixed inset-0 bg-redDark w-screen h-16 shadow-lg shadow-redShadow"
       :style="{ opacity: opacity }"
     ></div>
   </header>

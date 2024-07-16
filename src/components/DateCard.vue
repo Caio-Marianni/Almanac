@@ -11,10 +11,10 @@ const events = ref(eventsData);
   <div
     v-for="event in events"
     :keys="event.id"
-    class="flex flex-wrap justify-evenly items-center h-24 w-screen border-t-2 border-b-2 hover:bg-offBlack hover:bg-opacity-10 transition z-20"
+    class="flex flex-wrap m-auto justify-evenly items-center h-24 w-screen md:w-10/12 lg:w-5/6 border-t-2 border-b-2 hover:bg-offBlack hover:bg-opacity-10 transition z-20"
   >
     <!-- 00/00 -->
-    <div class="flex flex-col w-2/12 text-center">
+    <div class="flex flex-col w-2/12 md:w-2/12 lg:w-28 text-center">
       <p class="text-white font-bold p-1 border border-offWhite bg-red500">
         {{ event.month }}
       </p>
@@ -48,9 +48,8 @@ const events = ref(eventsData);
       <p class="text-redLight font-light pl-1">{{  event.location }}</p>
     </div>
     <!-- Button -->
-    <div class="flex items w-2/12 border-2 border-black hover:border-redLight transition">
+    <div class="flex justify-center w-1/6 lg:w-28 border-2 border-black hover:border-redLight transition">
       <a href="" class="p-4 w-fill font-bold text-offWhite transition">+Info</a>
     </div>
-  <!-- DIVS -->
   </div>
 </template>
