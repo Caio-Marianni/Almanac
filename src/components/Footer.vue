@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    <nav>
+  <div class="w-screen h-screen">
       <p>APENAS UM TESTE do abouttttttttttttttttttttttt</p>
-    </nav>
   </div>
 </template>

@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Almanac Event",
+    "location": "Goiania - GO",
+    "month": "11/08",
+    "year": "2024"
+  },
+  {
+    "id": 1,
+    "name": "Sao Paulo Music Festival",
+    "location": "Sao Paulo - SP",
+    "month": "12/2024",
+    "year": "2024"
+  },
+  {
+    "id": 2,
+    "name": "Rio de Janeiro Art Exhibition",
+    "location": "Rio de Janeiro - RJ",
+    "month": "02/01",
+    "year": "2025"
+  },
+  {
+    "id": 3,
+    "name": "Curitiba Food Fair",
+    "location": "Curitiba - PR",
+    "month": "05/01",
+    "year": "2025"
+  },
+  {
+    "id": 4,
+    "name": "Brasilia Tech Conference",
+    "location": "Brasilia - DF",
+    "month": "09/01",
+    "year": "2025"
+  },
+  {
+    "id": 5,
+    "name": "Florianopolis Beach Party",
+    "location": "Florianopolis - SC",
+    "month": "01/02",
+    "year": "2025"
+  },
+  {
+    "id": 6,
+    "name": "Salvador Carnival",
+    "location": "Salvador - BA",
+    "month": "02/03",
+    "year": "2025"
+  },
+  {
+    "id": 7,
+    "name": "Fortaleza Film Festival",
+    "location": "Fortaleza - CE",
+    "month": "04/04",
+    "year": "2025"
+  },
+  {
+    "id": 8,
+    "name": "Belo Horizonte Theatre Show",
+    "location": "Belo Horizonte - MG",
+    "month": "06/04",
+    "year": "2025"
+  },
+  {
+    "id": 9,
+    "name": "Manaus Adventure Race",
+    "location": "Manaus - AM",
+    "month": "10/04",
+    "year": "2025"
+  },
+  {
+    "id": 10,
+    "name": "Porto Alegre Book Fair",
+    "location": "Porto Alegre - RS",
+    "month": "11/05",
+    "year": "2025"
+  }
+]
