@@ -8,7 +8,7 @@ import Footer from '../components/Footer.vue'
 </script>
 
 <template>
-  <div class="w-screen overflow-y-hidden">
+  <div class="w-screen overflow-x-hidden">
 
   
     <!-- globe logo -->
@@ -61,11 +61,11 @@ import Footer from '../components/Footer.vue'
         ></div>
       </div>
     </div>
-    <!-- About Section -->
     <About />
     <FixedBackground />
     <CardsContainer />
     <DatesContainer />
+    <EmailContainer />
     <Footer />
     </div>
 </template>
