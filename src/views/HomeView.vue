@@ -4,6 +4,7 @@ import About from "../components/About.vue";
 import CardsContainer from "../components/MusicsContainer.vue";
 import DatesContainer from "../components/DatesContainer.vue";
 import FixedBackground from "../components/FixedBackground.vue"
+import ContactContainer from "../components/ContactContainer.vue";
 import Footer from '../components/Footer.vue'
 </script>
 
@@ -65,7 +66,7 @@ import Footer from '../components/Footer.vue'
     <FixedBackground />
     <CardsContainer />
     <DatesContainer />
-    <EmailContainer />
+    <ContactContainer />
     <Footer />
     </div>
 </template>

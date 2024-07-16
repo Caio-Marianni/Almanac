@@ -39,6 +39,10 @@ export default {
       black: '#000000',
       black800: '#232323',
       offBlack: '#1B1C1E',
+      orange: '#eb6d00',
+      green: '#00b315',
+      greenDark: '#009e12',
+      pink: '#ee2a7b',
       transparent: 'rgba(0, 0, 0, 0.3)',
     }
   },
