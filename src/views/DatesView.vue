@@ -1,13 +1,12 @@
 <script setup>
-  import FixedBackground from '@/components/FixedBackground.vue';
-import { ref } from 'vue'
+import DatesContainer from '@/components/DatesContainer.vue';
+import ContactContainer from '@/components/ContactContainer.vue';
+import Footer from '@/components/Footer.vue';
 </script>
-
 <template>
-  <div>
-    <nav>
-      <p>APENAS UM TESTE do abouttttttttttttttttttttttt, a maldita imagem de background ai em baixo</p>
-    </nav>
-    <FixedBackground />
+  <div class="pt-20 -mb-40 bg-offBlack">
+    <DatesContainer />
   </div>
+  <ContactContainer />
+  <Footer />
 </template>

@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx  }",
   ],
   theme: {
+    fontFamily: {
+      'barlow': ['Barlow', 'sans-serif']
+    },
     extend: {
       animation: {
         move: "move 2s ease-in-out infinite",
@@ -38,7 +41,8 @@ export default {
       offWhite: '#bfbfbf',
       black: '#000000',
       black800: '#232323',
-      offBlack: '#1B1C1E',
+      // offBlack: '#1B1C1E',
+      offBlack: '#0f0f0f',
       orange: '#eb6d00',
       green: '#00b315',
       greenDark: '#009e12',

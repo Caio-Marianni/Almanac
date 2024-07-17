@@ -1,33 +1,28 @@
 <script setup>
-import { ref } from "vue";
 import About from "../components/About.vue";
 import CardsContainer from "../components/MusicsContainer.vue";
 import DatesContainer from "../components/DatesContainer.vue";
-import FixedBackground from "../components/FixedBackground.vue"
 import ContactContainer from "../components/ContactContainer.vue";
-import Footer from '../components/Footer.vue'
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
-  <div class="w-screen overflow-x-hidden">
-
-  
-    <!-- globe logo -->
-    <div class="h-screen flex items-center md:p-40 xl:p-96 bg-offBlack">
-      <svg
-        version="1.1"
-        id="Camada_1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        viewBox="0 0 629.2 467.6"
-        xml:space="preserve"
-      >
-        <g>
-          <path
-            class="fill-red"
-            d="M314.6,52.7c-143.6,0-260,81.5-260,182s116.4,182,260,182s260-81.5,260-182S458.2,52.7,314.6,52.7z
+  <!-- globe logo -->
+  <div class="h-screen flex items-center md:p-40 xl:p-96 bg-offBlack">
+    <svg
+      version="1.1"
+      id="Camada_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 629.2 467.6"
+      xml:space="preserve"
+    >
+      <g>
+        <path
+          class="fill-red"
+          d="M314.6,52.7c-143.6,0-260,81.5-260,182s116.4,182,260,182s260-81.5,260-182S458.2,52.7,314.6,52.7z
             M181.5,90.4c19.1-8.1,36.4-11.5,48.9-13c-7.5,7.4-16.5,17.6-25,31c-8.2,13-13.5,25.2-17,35c-16.3-9.3-32.6-18.6-48.9-28
             C149.2,107.6,163.1,98.1,181.5,90.4z M84.6,168.3c11.5-20.6,26.1-33.3,35-40c20.6,11.3,41.3,22.6,61.9,34c-3,7.2-6,16.2-8,27
             c-2.5,13.4-2.6,25-2,34c-34.3,0-68.6,0-102.9,0C69.3,211.9,72,190.8,84.6,168.3z M89,303.4c-15.1-23.1-19.5-45.5-21-58
@@ -51,22 +46,22 @@ import Footer from '../components/Footer.vue'
             c7.5-7.4,16.6-17.6,25-31c8.2-13,13.5-25.2,17-35c16.3,9.3,32.7,18.7,49,28C475.9,360.9,462,370.4,443.6,378.2z M540.6,300.2
             c-11.5,20.6-26.1,33.3-35,40c-20.7-11.3-41.3-22.7-62-34c3-7.2,6-16.3,8-27c2.5-13.4,2.6-25.1,2-34c34.3,0,68.7,0,103,0
             C555.9,256.6,553.2,277.6,540.6,300.2z"
-          />
-        </g>
-      </svg>
-      <!-- Scroll indicator -->
-      <div class="absolute flex justify-center border-redLight border-2 rounded-xl w-6 h-12 bottom-10 right-0 left-0 m-auto">
-        <!-- dot -->
-        <div
-          class="rounded-xl w-3 h-3 bg-redLight animate-move bottom-0 m-auto top-0"
-        ></div>
-      </div>
+        />
+      </g>
+    </svg>
+    <!-- Scroll indicator -->
+    <div
+      class="absolute flex justify-center border-redLight border-2 rounded-xl w-6 h-12 bottom-10 right-0 left-0 m-auto"
+    >
+      <!-- dot -->
+      <div
+        class="rounded-xl w-3 h-3 bg-redLight animate-move bottom-0 m-auto top-0"
+      ></div>
     </div>
-    <About />
-    <FixedBackground />
-    <CardsContainer />
-    <DatesContainer />
-    <ContactContainer />
-    <Footer />
-    </div>
+  </div>
+  <About />
+  <CardsContainer />
+  <DatesContainer />
+  <ContactContainer />
+  <Footer />
 </template>
