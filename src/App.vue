@@ -2,8 +2,6 @@
 import { RouterLink, RouterView } from "vue-router";
 import NoiseFilter from "./components/NoiseFilter.vue";
 import { ref } from "vue";
-import HomeView from "./views/HomeView.vue";
-import AboutView from "./views/AboutView.vue";
 import FixedBackground from "./components/FixedBackground.vue";
 
 let opacity = ref(0);
@@ -15,23 +13,6 @@ window.addEventListener("scroll", () => {
 
   opacity.value = Math.min(1, (scrollY - 100) / (window.innerHeight / 3));
 });
-// Mobile Menu onClick events
-const transformMenu = () => {
-  // Animation
-  const bar1 = this.$refs.bar1;
-  const bar2 = this.$refs.bar2;
-  const bar3 = this.$refs.bar3;
-  bar1.classList.toggle("-rotate-45");
-  bar1.classList.toggle("translate-y-4");
-  bar2.classList.toggle("opacity-0");
-  bar3.classList.toggle("rotate-45");
-  bar3.classList.toggle("-translate-y-4");
-
-  // Navigation appears
-  top.value = top.value === 0 ? 1 : 0;
-  // 0 === hidden
-  // 1 === visible
-};
 </script>
 
 <template>
@@ -322,30 +303,7 @@ const transformMenu = () => {
             />
           </svg>
         </RouterLink>
-        <!-- Burger icon -->
-        <div
-          class="flex flex-col gap-2 cursor-pointer mr-4"
-          @click="transformMenu"
-        >
-          <div
-            ref="bar1"
-            class="h-2 w-10 bg-red rounded-full transition duration-300 ease-in-out transform"
-          ></div>
-          <div
-            ref="bar2"
-            class="h-2 w-10 bg-red rounded-full transition duration-200 ease-in-out transform"
-          ></div>
-          <div
-            ref="bar3"
-            class="h-2 w-10 bg-red rounded-full transition duration-300 ease-in-out transform"
-          ></div>
-        </div>
       </div>
-      <!-- Navigation pages -->
-      <!-- <div :class="{'left-0 fixed transition-all flex flex-col items-center cursor-pointer bg-black800': true, 'top-2/4': top === 0, 'top-16': top === 1 }" >
-      <RouterLink to="/about" class="transition-all w-screen text-center p-10 border-b-2 hover:text-white">About</RouterLink>
-      <RouterLink to="/about" class="transition-all w-screen text-center p-10 border-b-2 hover:text-white">About</RouterLink>
-    </div> -->
       <!-- Background Black -->
       <div
         class="fixed inset-0 bg-redDark w-screen h-16 shadow-lg shadow-redShadow"

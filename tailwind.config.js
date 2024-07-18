@@ -1,18 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx  }",
-  ],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx  }"],
   theme: {
     fontFamily: {
-      'barlow': ['Barlow', 'sans-serif']
+      barlow: ["Barlow", "sans-serif"],
     },
     extend: {
       animation: {
         move: "move 2s ease-in-out infinite",
       },
-      keyframes:{
+      keyframes: {
         move: {
           "0%": {
             opacity: "0",
@@ -30,25 +27,25 @@ export default {
       },
     },
     colors: {
-      red: '#ff0000',
-      red500: '#631f1f',
-      redDark: '#1f0000',
-      redLight: '#fff2f2',
-      txt500red: '#ebcece',
-      redShadow: 'rgba(39, 12, 12, 0.5)',
-      white: '#ffffff',
-      txt500: '#b3b3b3',
-      offWhite: '#bfbfbf',
-      black: '#000000',
-      black800: '#232323',
+      red: "#ff0000",
+      red500: "#631f1f",
+      redDark: "#1f0000",
+      redLight: "#fff2f2",
+      txt500red: "#ebcece",
+      redShadow: "rgba(39, 12, 12, 0.5)",
+      white: "#ffffff",
+      txt500: "#b3b3b3",
+      offWhite: "#bfbfbf",
+      black: "#000000",
+      black800: "#232323",
       // offBlack: '#1B1C1E',
-      offBlack: '#0f0f0f',
-      orange: '#eb6d00',
-      green: '#00b315',
-      greenDark: '#009e12',
-      pink: '#ee2a7b',
-      transparent: 'rgba(0, 0, 0, 0.3)',
-    }
+      offBlack: "#0f0f0f",
+      orange: "#eb6d00",
+      green: "#00b315",
+      greenDark: "#009e12",
+      pink: "#ee2a7b",
+      transparent: "rgba(0, 0, 0, 0.3)",
+    },
   },
   plugins: [],
-}
+};
