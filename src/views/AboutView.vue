@@ -6,11 +6,11 @@
 </script>
 
 <template>
-  <div class="bg-offBlack h-auto p-20 pt-20">
+  <div class="bg-offBlack h-auto px-0 pt-20">
     <About />
-    <div class="flex justify-between px-80">
-      <img class="h-80 rounded border-2 border-redDark" src="../assets/images/lester.webp" alt="">        
-      <img class="h-80 rounded border-2 border-redDark" src="../assets/images/dave.webp" alt="">        
+    <div class="flex justify-around lg:px-40">
+      <img class="h-60 md:h-80 rounded border-2 border-redDark" src="../assets/images/lester.webp" alt="">        
+      <img class="h-60 md:h-80 rounded border-2 border-redDark" src="../assets/images/dave.webp" alt="">        
     </div>
   </div>
   <ContactContainer />
